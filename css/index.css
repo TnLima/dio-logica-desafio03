@@ -1,0 +1,299 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 6px;
+    scale: 96%;
+    background-color: #5B4D5E;
+    color: rgb(236, 227, 227);
+}
+
+header {
+    background-color: rgb(93, 252, 128);
+    letter-spacing: -3px;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 70px;
+    color: #5B4D5E;
+    padding-bottom: 8px;
+    width: 1200px;
+    margin-bottom: -14px;
+    margin-top: -20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 60px;
+    width: 400px;
+    font-size: 34px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    border-radius: 2px;
+    border: solid 1px gray;
+    outline: none;
+}
+
+select{
+    font-size: 40px;   
+    height: 60px;
+    width: 400px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: rgb(93, 252, 128);
+    font-size: 60px;
+    cursor: pointer;
+    color: #5B4D5E;;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 72);
+    color: rgb(240, 223, 223);    
+}
+
+#heroCard {
+    /* width: 1180px; */
+    /* background-color: red;      */
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 240px;   
+
+}
+
+#heroName {
+    font-size: 44px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin: 10px 0px 10px 0px;
+}
+
+#otherText {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin: 20px 0px 20px 0px;
+}
+
+#result {
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: -1.4px;
+    color: rgb(158, 157, 157);
+}
+
+.classAccent {
+    color: rgb(255, 135, 149);
+}
+
+.xpAccent {
+    color: rgb(73, 246, 168);
+}
+
+.cardSobre {
+    /* background-color: lightgray; */
+    height: 340px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#svgIcons {
+    height: 100px;
+}
+
+.youTube {
+    height: 114px;
+}
+
+.youTube:hover {
+    scale: 110%;
+}
+
+#svgIcons:hover {
+    scale: 110%
+}
+
+.redesSociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.blankSpace {
+    margin-bottom: -68px;
+}
+
+@media (max-width: 950px) {
+    #heroCard {
+        border-radius: 10px;
+        display: flex;
+        padding-top: 40px;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+
+    *{
+        scale: 96%;
+    }
+
+    #heroCard {
+    /* width: 1180px; */
+    /* background-color: red;      */
+    /* display: flex;     */
+    gap: 0px;
+ 
+    }
+
+     #heroName {
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: -2px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    button {
+        width: 92vw;
+        font-size: 20px;
+        font-weight: bold;
+    }   
+
+    input {
+        height: 50px;
+        width: 92vw;
+        font-size: 22px;
+        font-weight: bolder;
+        letter-spacing: -1px;
+        border-radius: 6px;
+    }
+
+    select{
+    font-size: 20px;   
+    height: 40px;
+    width: 40vw;
+    }
+
+    #otherText {
+        font-size: 22px;
+        font-weight: bolder;
+        letter-spacing: -1px;
+        margin: 20px 0px 20px 8px;
+    }
+
+    header {
+        font-size: 22px;
+        letter-spacing: -1.4px;
+        /* margin-bottom: 124px; */
+        width: 88vw;
+        margin-bottom: -68px;
+        margin-top: -24px;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+    #heroCard {
+        flex-direction: column;
+    }
+
+    .fotoHeroi {
+        height: 0px;
+        width: 0px;
+        scale: 50%;
+
+        display: none;
+    }
+
+    #svgIcons {
+        height: 50px;
+    }
+
+    .youTube {
+        height: 50px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
+
+    .scriptText {
+        font-size: 24px;
+    }
+
+    .redesSociais {     
+        padding-top: 0px;
+        margin-top: -30px;
+    }
+
+    .cardSobre {
+    height: 0px;
+    }
+
+}
+
+/* @media (max-width: 1208px) {
+    #heroCard {
+        border-radius: 10px;
+        display: flex;
+        padding-top: 40px;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #heroName {
+        font-size: 50px;
+        align-items: center;
+        font-weight: bolder;
+        letter-spacing: -4px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    input {
+        height: 40px;
+        width: 250px;
+        font-size: 34px;
+        font-weight: bolder;
+        letter-spacing: -2px;
+        border-radius: 6px;
+        border: solid 1px lightgray;
+    }
+
+    #otherText {
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: -1px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    header {
+        font-size: 24px;
+        letter-spacing: -1.4px;
+    }
+
+    .scriptText {
+        font-size: 20px;
+    }
+
+    #classAccent {
+        font-size: 20px;
+    }
+
+    #xpAccent {
+        font-size: 20px;
+    }
+} */

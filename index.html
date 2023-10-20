@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body onload="popularDropdown()">
+    <script src="js/main.js"></script>
+    <script src="js/Hero.js"></script>
+    <header>🛡️ Menu Estratégico 🗡️</header>
+
+    <div id="heroCard">
+
+        <!-- <p id="heroName">Insira o nome do Herói</p>
+            <input id="idName" value="Thiago Lima" type="text"> -->
+
+        <div>
+            <p id="otherText">Qual o nome<br> do Herói?</p>
+            <input id="heroName" value="Link" type="text">
+        </div>
+
+        <div>
+            <p id="otherText">Qual o level<br>do Herói?</p>
+            <select id='levelDropDown' name='number'>
+                <option id="heroLevel">1</option>
+            </select>
+        </div>
+
+        <div>
+            <p id="otherText">Qual<br>classe?</p>
+
+                <select id='classeDropDown' name='number'>
+                    <option id="">Guerreiro</option>
+                    <option id="">Mago</option>
+                    <option id="">Monge</option>
+                    <option id="">Ninja</option>
+                </select>
+        </div>      
+
+        <div>
+
+            <p id="result">Já definiu a estratégia?<br> clique no botão abaixo!</p>
+
+            <button onclick="heroInjector()" id="calculateButton">Atacar!</button>
+            <div id="espaco"></div>
+            <div class="fotoHeroi">
+                <!-- <img src="assets/hero.png" alt=""> -->
+                <img src="images/trofeus.jpg" alt="">
+            </div>
+
+            <div class="cardSobre">
+                <div class="redesSociais">
+                    <a href="https://www.linkedin.com/in/thiago-de-lima-980977134/" target="_blank">
+                        <img id="svgIcons" src="images/icons/linkedin.svg" alt="">
+                    </a>
+
+                    <a href="https://www.youtube.com/@thi-lima" target="_blank">
+                        <img class="youTube" src="images/icons/youtube.svg" alt="">
+                    </a>
+                    <a href="https://github.com/TnLima" target="_blank">
+                        <img id="svgIcons" src="images/icons/github.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
